@@ -75,7 +75,7 @@ function SignIn() {
 		const emailMobile = data.emailMobile.trim()
 		const password = data.password.trim()
 
-		// stores data for signin credentials
+		// validate and store data for signin credentials
 		let payload = getPayload(emailMobile, password)	
 		if(!payload) return
 

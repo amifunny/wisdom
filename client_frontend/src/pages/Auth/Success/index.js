@@ -39,7 +39,7 @@ function Success() {
   	}
 
 	return (
-	<div className="col-span-7 flex items-center justify-center">
+	<div className="md:col-span-7 col-span-12 flex items-center justify-center">
 		{/* User details if signed in */}
 		{
 			user && 
